@@ -1,5 +1,6 @@
 ﻿Console.Clear();
 int k = 0;
+Console.WriteLine("введите количество элементов массива");
 int n = int.Parse(Console.ReadLine());
 int [] mas = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
 for (int i = 0; i < mas.Length; i++)
